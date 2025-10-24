@@ -1,6 +1,7 @@
 import './App.css';
 import BookingForm from './BookingForm.jsx';
 import { useEffect } from 'react';
+import pic2 from './assets/pic2.jpg';
 
 function App() {
   useEffect(() => {
@@ -115,10 +116,10 @@ function App() {
           <div className="flex items-center justify-center">
             <div className="w-full max-w-md overflow-hidden shadow-lg bg-white">
               <img
-                src="/src/assets/pic2.jpg"
+                src={pic2}
                 alt="Portrait of Ksenia"
                 className="object-cover w-full h-full"
-              ></img>
+              />
             </div>
           </div>
         </section>
